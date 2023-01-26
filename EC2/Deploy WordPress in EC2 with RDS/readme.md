@@ -68,7 +68,7 @@ DB_HOST: The hostname of the database that you found in the previous module.
 
     ![image](https://user-images.githubusercontent.com/73180656/214883977-be1ea780-c1db-49f3-984b-11e6593ec74b.png)
     
-10.	 Go to this link to generate values for this configuration section. Replace the entire content in that section with the content from the link. Save it.
+10.	 Go to [this link](https://api.wordpress.org/secret-key/1.1/salt/) to generate values for this configuration section. Replace the entire content in that section with the content from the link. Save it.
 11.	 Install the application dependencies needed for WordPress, copy the WordPress application files into /var/www/html directory used by Apache and Restart the Apache web server to pick up the changes.
 ```
 sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
