@@ -31,3 +31,5 @@ sudo /opt/bitnami/ctlscript.sh restart
 .
     ![image](https://user-images.githubusercontent.com/73180656/214894537-7e1ce14a-1511-46ff-becb-dfa185d4bd30.png)
 
+11.	 After this, WordPress is connected to the MySQL database. Now it will store all its files in RDS.
+
